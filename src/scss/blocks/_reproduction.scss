@@ -1,0 +1,82 @@
+.reproduction {
+    padding-top: 69px;
+    &__tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-txt {
+            line-height: 20px;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 110%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        &-items {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &-item {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 126px;
+            height: 43px;
+            cursor: pointer;
+        } 
+        &-item_active {
+            background-color: rgb(55, 107, 68);
+            border-radius: 20px;
+            color: #fff;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        gap: 70px;
+    }
+    &__block {
+        width: 310px;
+        &-author {
+            margin-top: 20px;
+            color: rgb(134, 146, 139);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+        }
+        &-paintingName {
+            margin-top: 10px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        &-size {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &-price {
+            margin-top: 18px;
+            color: rgb(89, 141, 102);
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    &-btn {
+        margin-top: 20px;
+        width: 310px;
+        height: 65px;
+        border: 1px solid rgb(89, 141, 102);
+        color: rgb(89, 141, 102);
+        text-align: center;
+        transition: .3s all;
+        &:hover {
+            background-color: rgb(89, 141, 102);
+            color:#fff;
+        }
+    }
+}
