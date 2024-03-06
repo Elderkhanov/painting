@@ -1,0 +1,44 @@
+.collection {
+    margin-top: 101px;
+    padding: 70px 0 70px 0;
+    min-height: 574px;
+    background: url('../img/collection/pic_background.png') center center/cover no-repeat;
+    &__info {
+        width: 449px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        &-txt {
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 36px;
+            color: #fff;
+        }
+    }
+    &__descr {
+        margin-top: 20px;
+        width: 540px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 150%;
+    }
+    &-btn {
+        margin-top: 60px;
+        width: 257px;
+        height: 65px;
+        background-color: rgba(238, 219, 109, 0.8);
+        color: rgb(44, 45, 53);
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        border: none;
+        transition: .3s all;
+        &:hover {
+            background-color: rgba(238, 219, 109, 1);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
