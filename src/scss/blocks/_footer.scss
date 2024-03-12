@@ -1,0 +1,41 @@
+.footer {
+    padding-top: 90px;
+    .black {
+        color: rgb(44, 45, 53);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .footer__social_descr,a {
+        color: rgb(134, 146, 139);
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts {
+        .number {
+            margin-top: 20px;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            p {
+                color: rgb(134, 146, 139);
+                line-height: 30px;
+            }
+        }
+    }
+    &__social {
+        &_block {
+            display: flex;
+            gap: 35px;
+        }
+        &_descr {
+            margin-top: 13px;
+        }
+    }
+}
