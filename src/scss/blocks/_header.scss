@@ -2,6 +2,9 @@
     height: 100px;
     display: flex;
     align-items: center;
+    &__divider {
+        display: none;
+    }
     &__nav {
         display: flex;
         justify-content: space-between;

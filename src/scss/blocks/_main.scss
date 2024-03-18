@@ -4,6 +4,12 @@
         align-items: center;
         gap: 30px;
     }
+    &__bird {
+        img {
+            width: 100%;
+        }
+        
+    }
     &__descr {
         display: flex;
         flex-direction: column;
