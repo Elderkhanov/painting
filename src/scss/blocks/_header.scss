@@ -11,8 +11,10 @@
 
         &-list {
             display: flex;
+            align-items:center;
             gap: 60px;
             list-style-type: none;
+            margin: 0;
         }
 
         &-item {

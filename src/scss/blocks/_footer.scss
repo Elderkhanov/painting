@@ -13,8 +13,16 @@
         font-weight: 500;
     }
     &__wrapper {
+        position: relative;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 240px;
+    }
+    &__media-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 80px;
     }
     &__contacts {
         .number {

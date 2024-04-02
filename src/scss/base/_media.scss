@@ -8,6 +8,18 @@
     .container {
         max-width: 720px;
     }
+    .footer {
+        &__wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        &__media-block {
+            display: flex;
+            gap: 40px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -43,6 +55,38 @@
     }
     .main {
         padding-top: 30px;
+    }
+
+    .team {
+        &__wrapper {
+            padding: 0 15px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__h3 {
+            margin-top: 0;
+        }
+    }
+    .footer {
+        &__wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            // gap: 40px;
+            padding: 0 15px;
+        }
+        &__contacts {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items:baseline;
+        }
+        &__media-block {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            // gap: 40px;
+        }
     }
 }
 
